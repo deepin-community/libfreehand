@@ -1,0 +1,66 @@
+libfreehand (0.1.2-3) unstable; urgency=medium
+
+  * debian/patches/icu-65-api-macros-with-semicolon.patch.1: import from
+    LO master, fix build with ICU >= 65 (closes: #963285)
+
+ -- Rene Engelhard <rene@debian.org>  Mon, 22 Jun 2020 18:46:32 +0200
+
+libfreehand (0.1.2-2) unstable; urgency=medium
+
+  * add missing new Build-Depends: libcppunit-dev
+
+ -- Rene Engelhard <rene@debian.org>  Sun, 17 Sep 2017 13:25:55 +0200
+
+libfreehand (0.1.2-1) unstable; urgency=medium
+
+  * New upstream version 0.1.2
+
+  * build with -DUCHAR_TYPE=uint16_t with ICU 59
+
+ -- Rene Engelhard <rene@debian.org>  Sun, 17 Sep 2017 12:28:10 +0200
+
+libfreehand (0.1.1-2) unstable; urgency=medium
+
+  * [43e8c1e] move Maintainer: to Debian LibreOffice Maintainers
+  * [5c04c11] multiarchify
+
+ -- Rene Engelhard <rene@debian.org>  Mon, 12 Sep 2016 21:57:03 +0200
+
+libfreehand (0.1.1-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Rene Engelhard <rene@debian.org>  Fri, 12 Jun 2015 10:43:18 +0200
+
+libfreehand (0.1.0-2) unstable; urgency=low
+
+  * upload to unstable 
+
+ -- Rene Engelhard <rene@debian.org>  Thu, 07 Aug 2014 23:40:58 +0200
+
+libfreehand (0.1.0-1) experimental; urgency=medium
+
+  * New upstream release
+ 
+  * use dh-autoreconf (closes: #748214) 
+
+ -- Rene Engelhard <rene@debian.org>  Fri, 23 May 2014 21:31:47 +0200
+
+libfreehand (0.0.0-3) unstable; urgency=low
+
+  * upload to unstable 
+
+ -- Rene Engelhard <rene@debian.org>  Thu, 08 May 2014 17:48:40 +0200
+
+libfreehand (0.0.0-2) experimental; urgency=low
+
+  * add missing build-dep on gperf
+  * mention src/lib/gentoken.pl in copyright, and remove boguus LGPL for *
+
+ -- Rene Engelhard <rene@debian.org>  Mon, 05 May 2014 15:18:40 +0000
+
+libfreehand (0.0.0-1) experimental; urgency=low
+
+  * Initial release
+
+ -- Rene Engelhard <rene@debian.org>  Mon, 14 Apr 2014 22:03:57 +0200
